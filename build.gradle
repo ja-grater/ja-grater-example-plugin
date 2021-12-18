@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.enaium.ja.grater.example'
+version '1.0-SNAPSHOT'
+
+targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+jar {
+    manifest.attributes(
+            "ja-grater-plugin": "cn.enaium.ja.grater.example.ExamplePlugin",
+    )
+}
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.enaium.cn' }
+}
+
+dependencies {
+    implementation('cn.enaium.ja-grater:ja-grater:1.0.0')
+}

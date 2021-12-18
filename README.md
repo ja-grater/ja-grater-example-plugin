@@ -1,0 +1,1 @@
+# ja-grater-example-plugin
