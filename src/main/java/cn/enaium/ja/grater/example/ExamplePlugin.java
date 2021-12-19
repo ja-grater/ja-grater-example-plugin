@@ -5,6 +5,7 @@ import cn.enaiun.ja.grater.transformer.Transformer;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @author Enaium
@@ -13,7 +14,7 @@ public class ExamplePlugin implements PluginInitialize {
 
     @Override
     public void initialize() {
-        System.out.println("Hello Example Plugin");
+
     }
 
     @Override
